@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@JacksonXmlRootElement(localName = "Employee")
+@JacksonXmlRootElement(localName = "Employee") // This is optional, if we do not use this then EmployeeResponse will be used as an root element tag
 public class EmployeeResponse {
 	
 	private int id;
